@@ -1,0 +1,14 @@
+
+Object <-> World <-> Eye <-> Clip <-> Normalized Device <-> Window
+
+uniform mat4 modelMatrix;				Pasa punto o vector de object space a world space
+uniform mat4 viewMatrix;				Pasa punto o vector de world space a eye space
+uniform mat4 projectionMatrix;				Pasa punto o vector de eye space a clip space
+[dividir per gl_Position.w]				Pasa punto o vector de clip space a normalized device space
+
+uniform mat4 modelViewMatrix;			Pasa punto o vector de object space a eye space
+uniform mat4 modelViewProjectionMatrix; Pasa punto o vector de object space a clip space
+
+uniform mat3 normalMatrix;				Pasa la normal de object space a eye space
+
+Las inversas obviamente hacen el paso inverso.

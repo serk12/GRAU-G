@@ -1,0 +1,19 @@
+TEMPLATE=subdirs
+SUBDIRS = draw-vbo-ext navigate-default render-default
+
+SUBDIRS += effect-crt
+SUBDIRS += shaderLoader
+SUBDIRS += show-help
+SUBDIRS += alphablending
+SUBDIRS += modelInfo01
+SUBDIRS += animateVertices
+SUBDIRS += modelInfo02
+SUBDIRS += framerate
+SUBDIRS += showDegree
+SUBDIRS += boundingBox
+SUBDIRS += resaltat
+SUBDIRS += resaltatKey
+SUBDIRS += resaltatMouse
+SUBDIRS += multitex
+SUBDIRS += shadowmap
+SUBDIRS += tsplatting

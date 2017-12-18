@@ -17,3 +17,6 @@ SUBDIRS += resaltatMouse
 SUBDIRS += multitex
 SUBDIRS += shadowmap
 SUBDIRS += tsplatting
+SUBDIRS += glowing
+SUBDIRS += distort
+SUBDIRS += reflection

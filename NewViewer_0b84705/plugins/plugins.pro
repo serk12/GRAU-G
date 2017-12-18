@@ -20,3 +20,5 @@ SUBDIRS += tsplatting
 SUBDIRS += glowing
 SUBDIRS += distort
 SUBDIRS += reflection
+SUBDIRS += drawSmooth
+SUBDIRS += drawFlat
